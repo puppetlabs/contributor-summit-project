@@ -13,10 +13,11 @@ rescue LoadError
   exit 1
 end
 
-def question(message, required=false)
+def question(message, required=false, noecho=false)
   loop do
     print "#{message} "
-    answer = STDIN.gets.strip
+    answer = noecho ? STDIN.noecho(&:gets) : STDIN.gets
+    answer.strip!
     next if required and answer.empty?
 
     return answer
@@ -28,7 +29,7 @@ begin
   upstream = 'puppetlabs/contributor-summit-project'
   origin   = `git config --get remote.origin.url`.strip.match(/github.com[\/:]([\w-]+\/[\w-]+)(?:.git)?$/)[1]
   username = origin.split('/').first
-  password = question('What is your GitHub password?', true)
+  password = question('What is your GitHub password?', true, true)
   otpcode  = question('Type your two-factor code, or press [enter] to skip:').delete(' ')
 rescue => e
   raise "Please run this script from within the Contributor Summit project template repository"
