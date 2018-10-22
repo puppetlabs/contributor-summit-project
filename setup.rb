@@ -95,7 +95,7 @@ if oauth
     pclient.delete_authorization(oauth[:id], :headers => { 'X-GitHub-OTP' => otpcode })
   rescue Octokit::OneTimePasswordRequired
     # 2fa has expired, let's grab it again
-    otpcode = question('Type your two-factor code again so we can cleanup:').delete(' ')
+    otpcode = question('Your two-factor code has expired. Type a new code so we can cleanup:').delete(' ')
     pclient  = Octokit::Client.new(:login => username, :password => password)
     pclient.delete_authorization(oauth[:id], :headers => { 'X-GitHub-OTP' => otpcode })
   end  
