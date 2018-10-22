@@ -20,6 +20,7 @@ def question(message, required=false, noecho=false)
     print "#{message} "
     answer = noecho ? STDIN.noecho(&:gets) : STDIN.gets
     answer.strip!
+    puts if noecho
     next if required and answer.empty?
 
     return answer
