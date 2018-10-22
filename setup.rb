@@ -86,7 +86,12 @@ end
 puts
 if oauth
   # now let's clean up that oauth token
-  otpcode = question('Type your two-factor code again so we can cleanup:').delete(' ')
-  client  = Octokit::Client.new(:login => username, :password => password)
-  client.delete_authorization(oauth[:id], :headers => { 'X-GitHub-OTP' => otpcode })
+  begin
+    client.delete_authorization(oauth[:id], :headers => { 'X-GitHub-OTP' => otpcode })
+  rescue Octokit::OneTimePasswordRequired
+    # 2fa has expired, let's grab it again
+    otpcode = question('Type your two-factor code again so we can cleanup:').delete(' ')
+    client  = Octokit::Client.new(:login => username, :password => password)
+    client.delete_authorization(oauth[:id], :headers => { 'X-GitHub-OTP' => otpcode })
+  end  
 end
