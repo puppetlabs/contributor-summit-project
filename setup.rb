@@ -55,9 +55,11 @@ begin
       puts 'Delete it if you do, and then run this again.'
       exit 1
     end
-
+    
+    # save a copy of the password-authed client for token cleanup
+    pclient = client
     # Creating the authorization isn't enough. Now we've got to re-login with that token
-    client = Octokit::Client.new(:access_token => oauth[:token])
+    client  = Octokit::Client.new(:access_token => oauth[:token])
   end
 
   client.auto_paginate = true
@@ -87,11 +89,11 @@ puts
 if oauth
   # now let's clean up that oauth token
   begin
-    client.delete_authorization(oauth[:id], :headers => { 'X-GitHub-OTP' => otpcode })
+    pclient.delete_authorization(oauth[:id], :headers => { 'X-GitHub-OTP' => otpcode })
   rescue Octokit::OneTimePasswordRequired
     # 2fa has expired, let's grab it again
     otpcode = question('Type your two-factor code again so we can cleanup:').delete(' ')
-    client  = Octokit::Client.new(:login => username, :password => password)
-    client.delete_authorization(oauth[:id], :headers => { 'X-GitHub-OTP' => otpcode })
+    pclient  = Octokit::Client.new(:login => username, :password => password)
+    pclient.delete_authorization(oauth[:id], :headers => { 'X-GitHub-OTP' => otpcode })
   end  
 end
