@@ -1,4 +1,6 @@
 #! /usr/bin/env ruby
+require 'io/console'
+
 begin
   require 'octokit'
 rescue LoadError
