@@ -1,15 +1,17 @@
-# Contributor Summit Project Template
+# Contributor Summit 2019 Project Month
 
 Contributor Summit project month is an experimental new format that builds on hack
 sessions from past Contributor Summits and refocuses on long-term sustainability.
 We're hoping that not only do you get a supported chance to play with some of our
 new technology, but you can build it into something that contributes to the larger
-DevOps community. We'll kick things off at Puppetize Live and make our first
-releases at Contributor Summit Online, so this is a month-long collaborative hackathon!
+DevOps community. We'll kick things off in May with a month-long collaborative
+hackathon and make our first releases during Contributor Summit. If you're attending
+then you can even take the stage for a few minutes to talk about your project if
+you'd like.
 
-We'll work with you throughout the month to help you maximine the value of your time
-and reduce the amount of overhead you'll have to handle. See below for some of the
-ways that Puppet can collaborate with you.
+We'll work with you via Office Hours throughout the month to help you maximine the
+value of your time and reduce the amount of overhead you'll have to handle. See below
+for some of the ways that Puppet can collaborate with you.
 
 There are no real restrictions on what projects you can choose, only two suggestions:
 
@@ -23,12 +25,45 @@ pattern proposal. The possibilities are endless!
 We're glad that you're joining us on this adventure. It will be fun!
 
 # Getting Started
-It's easy to get going. We'll ask that you follow these steps and work from this
-repository because it will make it much easier for us to keep track of who's working
-on what projects and what your status is.
+It's easy to get going and mostly self-directed. Just let us know what you're working
+on and what we can do to help you out. When the Project Month opens, this page will be
+updated with instructions on how to do that.
 
-[GitHub has a useful tutorial](https://help.github.com/articles/fork-a-repo/) if you
-need help with any of these steps.
+We recommend that you keep your project in a GitHub (or other hosting service) repository.
+If you'd like, you can use this repository and the attached project board as a template,
+but you're certainly not required to.
+
+If you need Git or GitHub help, you might start with these guides:
+
+* [Getting Started on GitHub](https://guides.github.com/activities/hello-world/)
+* [Git Handbook](https://guides.github.com/introduction/git-handbook/)
+* [...all GitHub Guides](https://guides.github.com)
+
+## Using GitHub features
+GitHub includes some optional repository features that you might be interested in.
+Open the [Settings](../../settings) page to check them out.
+
+### GitHub Wikis
+You might choose to keep your project documentation in a Wiki to enable low-friction
+collaborative editing. If you're creating a Puppet Module, you should use the
+standard `README.md` and `REFERENCE.md` [documentation pattern](https://puppet.com/docs/puppet/latest/modules_documentation.html) to document your module.
+
+Reference the [GitHub documentation](https://help.github.com/articles/about-github-wikis)
+if you'd like more information.
+
+### GitHub Projects
+Project boards help you organize and prioritize your work. They are made up of issues,
+pull requests, and notes organized as cards in columns. You can drag and drop the
+cards and columns as needed. Get started by enabling the feature, then creating a new
+board. Starting from a basic Kanban template will likely be the easiest way to get started.
+
+Reference the [GitHub documentation](https://help.github.com/articles/about-project-boards)
+if you'd like more information.
+
+### Using this repository as a template:
+This repository is set up with a project board and some starter issues to help keep you
+on track. Using it is entirely optional, but some participants have found it helpful.
+If you'd like to use it, just clone the repo and run the setup script.
 
 1. Start off by creating a free GitHub account, if you don't already have one.
     * https://github.com/join
@@ -44,30 +79,7 @@ need help with any of these steps.
       * Windows: https://rubyinstaller.org
       * Linux: use your distributions package manager to install `ruby`.
    1. Run the command `./setup.rb`
- 1. Tell us about your project:
-      1. You'll need to create your [project charter](../../issues/1) first
-      1. [Submit your project](https://goo.gl/forms/1g0znAZTyECzXD3q2)
-
-## Using GitHub features
-GitHub includes some optional repository features that you might be interested in.
-Open the [Options](../../settings) page to check them out.
-
-### GitHub Wikis
-You might choose to keep your project documentation in a Wiki to enable low-friction
-collaborative editing. If you're creating a Puppet Module, you should use the
-standard `README.md` and `REFERENCE.md` [documentation pattern](https://puppet.com/docs/puppet/latest/modules_documentation.html) instead.
-
-Reference the [GitHub documentation](https://help.github.com/articles/about-github-wikis)
-if you'd like more information.
-
-### GitHub Projects
-Project boards help you organize and prioritize your work. They are made up of issues,
-pull requests, and notes organized as cards in columns. You can drag and drop the
-cards and columns as needed. Get started by enabling the feature, then creating a new
-board. Starting from a basic Kanban template will likely be the easiest way to get started.
-
-Reference the [GitHub documentation](https://help.github.com/articles/about-project-boards)
-if you'd like more information.
+   
 
 # Collaboration Resources Provided
 We would like to help ensure your success. We'll be working with you to help keep your
@@ -82,6 +94,7 @@ team will coordinate with each of you to ensure that you receive all the help yo
 
 See [the resources list](../../blob/master/RESOURCES.md) to see examples of what we could offer.
 
+
 # Project Ideas
 If you need a little inspiration to come up with a project idea, we've put together a 
 [list of some suggestions](../../blob/master/PROJECTS.md). Feel free to use what you'd like from here,
@@ -89,8 +102,9 @@ no credit is needed.
 
 If you'd like to collaborate with others for your project, please put a prominent note in
 your project's `README.md` and socialize your idea in the `#contributor-summit` Slack
-channel. And conversely, if you're looking to join a project, browse the [forks](../../network/members)
-and see if any look exciting.
+channel. And conversely, if you're looking to join a project, ask in channel. You might also
+browse the [forks](../../network/members) and see if any look exciting.
+
 
 # Questions?
 
@@ -98,18 +112,14 @@ and see if any look exciting.
    * Sure! It would help us keep track of projects if you forked this repository and
      add your charter and a link to the actual project repository as the `README.md`
 * Can I work on something that's not software?
-   * Absolutely. Use this month to write a DevOps book, if you'd like! As you're defining
-     your roadmap, you'll want to massage the issue queue to be more useful for the kind
-     of project you want to work on.
+   * Absolutely. Use this month to write a DevOps book, if you'd like! Just define the scope
+     of your project and any deliverables appropriately.
 * How will we communicate during the project month?
-   * Project coordinators will contact you via email or Slack.
-   * The [Puppet Community Slack](http://slack.puppet.com) has a #contributor-summit channel for conversation.
+   * Project coordinators may contact you via email or Slack.
+   * We'll hold weekly Office Hours in the [Puppet Community Slack](http://slack.puppet.com).
+   * We've also got a #contributor-summit Slack channel for conversation any time.
    * Email community@puppet.com if you need anything.
-* Does this work count towards [Hacktoberfest](https://hacktoberfest.digitalocean.com)?
-   * Most certainly! As long as the projects you're contributing to are public projects on
-     GitHub, then any pull requests you make in the month of October will count towards
-     the challenge.
-* Can I change the name of my repository?
+* If I use the project template, can I change the name of my repository?
    * After the fork & clone are complete, you may change the name of the repository to
      match your project name better if you'd like.
 * Why does the setup script ask for my GitHub credentials?
