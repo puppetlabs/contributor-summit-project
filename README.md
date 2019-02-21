@@ -6,10 +6,12 @@ Contributor Summit project month is an experimental new format that builds on ha
 sessions from past Contributor Summits and refocuses on long-term sustainability.
 We're hoping that not only do you get a supported chance to play with some of our
 new technology, but you can build it into something that contributes to the larger
-DevOps community. ***We'll kick things off May first*** with a month-long collaborative
-hackathon and make our first releases during Contributor Summit. If you're attending
-then you can even take the stage for a few minutes to talk about your project if
-you'd like... but only if you want to!
+DevOps community.
+
+***We'll kick things off May first*** with a month-long collaborative hackathon and
+make our first releases the week of Contributor Summit. If you're attending then
+you'll even have the opportunity to take the stage for a few minutes to talk about
+your project! If you'd rather not, we can announce it for you.
 
 We'll work with you via Office Hours throughout the month to help you maximize the
 value of your time and reduce the amount of overhead you'll have to handle. See below
