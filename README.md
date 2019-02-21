@@ -29,6 +29,8 @@ It's easy to get going and mostly self-directed. Just let us know what you're wo
 on and what we can do to help you out. When the Project Month opens, this page will be
 updated with instructions on how to do that.
 
+Much of our coordination and conversation will take place in the [Puppet Community Slack](http://slack.puppet.com).
+
 We recommend that you keep your project in a GitHub (or other hosting service) repository.
 We've put together [a few tips](PM.md) on project management in a GitHub repository.
 If you'd like, you can also use this repository and the attached project board
@@ -76,8 +78,8 @@ browse the [forks](../../network/members) and see if any look exciting.
      of your project and any deliverables appropriately.
 * How will we communicate during the project month?
    * Project coordinators may contact you via email or Slack.
-   * We'll hold weekly Office Hours in the [Puppet Community Slack](http://slack.puppet.com).
-   * We've also got a #contributor-summit Slack channel for conversation any time.
+   * We'll hold weekly [#office-hours](http://puppetcommunity.slack.com/app_redirect?channel=office-hours) on Slack.
+   * We've also got a [#contributor-summit](http://puppetcommunity.slack.com/app_redirect?channel=contributor-summit) Slack channel for conversation any time.
    * Email community@puppet.com if you need anything.
 * What if I have other questions?
    * Email community@puppet.com and we'll do our best to answer it!
