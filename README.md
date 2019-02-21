@@ -1,13 +1,15 @@
 # Contributor Summit 2019 Project Month
 
+## Coming soon to a keyboard near you!
+
 Contributor Summit project month is an experimental new format that builds on hack
 sessions from past Contributor Summits and refocuses on long-term sustainability.
 We're hoping that not only do you get a supported chance to play with some of our
 new technology, but you can build it into something that contributes to the larger
-DevOps community. We'll kick things off in May with a month-long collaborative
+DevOps community. ***We'll kick things off May first*** with a month-long collaborative
 hackathon and make our first releases during Contributor Summit. If you're attending
 then you can even take the stage for a few minutes to talk about your project if
-you'd like.
+you'd like... but only if you want to!
 
 We'll work with you via Office Hours throughout the month to help you maximize the
 value of your time and reduce the amount of overhead you'll have to handle. See below
@@ -27,7 +29,8 @@ We're glad that you're joining us on this adventure. It will be fun!
 # Getting Started
 It's easy to get going and mostly self-directed. Just let us know what you're working
 on and what we can do to help you out. When the Project Month opens, this page will be
-updated with instructions on how to do that.
+updated with instructions on how to do that. If you've registered for Contributor Summit
+then you'll get a reminder email at that time.
 
 Much of our coordination and conversation will take place in the [Puppet Community Slack](http://slack.puppet.com).
 
@@ -45,14 +48,17 @@ If you need Git or GitHub help, you might start with these guides:
 
 # Collaboration Resources Provided
 We would like to help ensure your success. We'll be working with you to help keep your
-projects on track. We'll help you define your project scope and set roadmap goals, then
-check in with you roughly weekly. (Milestones are scheduled for each Wednesday, but the
-actual checkin date & time will vary.) In addition, during the project month we'll provide
-several resources and services that you might not otherwise have access to.
+projects on track. We'll provide resources to help you define your project scope and
+set roadmap goals, then check in with you roughly weekly to see how you're doing. 
+(Office Hours are scheduled for each Wednesday, but we can interact outside that time
+as well.) In addition, during the project month we'll provide several resources and
+services that you might not otherwise have access to.
 
-Some of the resources will be provided via webinars or by downloaded materials and some
-will be provided as short one-on-one chats or video consulations. The Puppet community
-team will coordinate with each of you to ensure that you receive all the help you need.
+The [full Office Hour schedule](https://puppet.com/community/office-hours) is always
+available, but during this month, we'll also provide extra resources in the form of
+webinars or downloaded materials. If warranted, we may also provide short one-on-one chats
+or video consulations. The Puppet community team will coordinate with each of you to
+ensure that you receive all the help you need.
 
 See [the resources list](../../blob/master/RESOURCES.md) to see examples of what we could offer.
 
