@@ -5,15 +5,12 @@ through this project sprint. Some resources will be provided via webinars or by
 downloaded materials and some will be provided as short one-on-one chats or
 video consultations.
 
-Obviously, not all of these resources make sense for everyone or all projects,
-so we'll coordinate with you to make sure that you receive the help you need and
-that you're not burdened down with extra process that you don't need.
+Obviously, not all of these resources make sense for everyone or all projects.
+Identify if any of these resources would be helpful for you and let us know.
+If there's something else that we can do, let us know that too.
 
-As you get started on your projects, we'll reach out via Slack or email to see
-how we can start collaborating. Unless you're crystal clear on your project
-direction and scope, we'll probably schedule a short meeting with one of our
-project or product managers to help you define that roadmap and scope out the
-initial project release that will spark the most community interest.
+You're in the driver's seat!
+
 
 ## Project management coaching
 It can be hard to complete and ship a release on time if you don't have a vision
