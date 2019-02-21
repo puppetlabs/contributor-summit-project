@@ -5,7 +5,7 @@ a different idea, that's even better than snagging one of these. But if you'd li
 feel free to run with anything on this list. Before claiming one, check the [forks](../../network/members)
 and see if you can join forces with someone already working on it.
 
-* Puppet 6 introduces [Deferred functions](https://github.com/puppetlabs/puppet-specifications/blob/master/language/types_values_variables.md#deferrednew),
+* Puppet 6 introduces [Deferred functions](https://puppet.com/docs/puppet/6.0/integrating_secrets_and_retrieving_agent-side_data.html),
   which are evaluated during catalog application time -- eg, agent-side functions.
   This provides functionality for all kinds of exciting things: secret management,
   data that must be looked up by the agent, registering with some service that responds
@@ -58,5 +58,6 @@ and see if you can join forces with someone already working on it.
   See https://github.com/raphink/puppet-freeradius (`Rakefile`, `spec_helper_acceptance`)
   for a PoC of that idea.
 
-* None of these look exciting? Check the [forks](../../network/members) and see if you
-  can join an existing project.
+* None of these look exciting? Check the [forks](../../network/members) or
+  [chat in Slack](http://puppetcommunity.slack.com/app_redirect?channel=contributor-summit)
+  and see if you can join an existing project.
