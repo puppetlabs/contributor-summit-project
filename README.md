@@ -9,7 +9,7 @@ hackathon and make our first releases during Contributor Summit. If you're atten
 then you can even take the stage for a few minutes to talk about your project if
 you'd like.
 
-We'll work with you via Office Hours throughout the month to help you maximine the
+We'll work with you via Office Hours throughout the month to help you maximize the
 value of your time and reduce the amount of overhead you'll have to handle. See below
 for some of the ways that Puppet can collaborate with you.
 
