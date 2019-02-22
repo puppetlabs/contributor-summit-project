@@ -30,9 +30,9 @@ We're glad that you're joining us on this adventure. It will be fun!
 
 # Getting Started
 It's easy to get going and mostly self-directed. Just let us know what you're working
-on and what we can do to help you out. When the Project Month opens, this page will be
-updated with instructions on how to do that. If you've registered for Contributor Summit
-then you'll get a reminder email at that time.
+on and what we can do to help you out. You can [sign up for Project Month](http://pup.pt/cspm-signup)
+now and let us know you're interested, even if you don't know yet what you want to
+work on. We'll remind you when it's time to get the party started.
 
 Much of our coordination and conversation will take place in the [Puppet Community Slack](http://slack.puppet.com).
 
