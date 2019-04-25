@@ -72,8 +72,8 @@ no credit is needed.
 
 If you'd like to collaborate with others for your project, please put a prominent note in
 your project's `README.md` and socialize your idea in the `#contributor-summit` Slack
-channel. And conversely, if you're looking to join a project, ask in channel. You might also
-browse the [forks](../../network/members) and see if any look exciting.
+channel. And conversely, if you're looking to join a project, ask in channel. Starting on May 1,
+we'll also add a list of projects to this page.
 
 
 # Questions?
