@@ -3,7 +3,7 @@
 Here is a sampling of some of the things that Puppet can offer to support you
 through this project sprint. Some resources will be provided via webinars or by
 downloaded materials and some will be provided as short one-on-one chats or
-video consultations.
+[#office-hours](https://puppetcommunity.slack.com/app_redirect?channel=office-hours) sessions.
 
 Obviously, not all of these resources make sense for everyone or all projects.
 Identify if any of these resources would be helpful for you and let us know.
@@ -21,6 +21,7 @@ and roadmap in place. Defining that roadmap and sticking to it takes practice.
 * Scheduled office hours for when you need help getting unblocked
 * Advice on predicting community demand for your project
 
+
 ## Documentation review
 Writing a good quality README is hard. Especially if you don't quite know what
 your users will need to help them understand how to use your tool. But having
@@ -28,6 +29,7 @@ good documentation is crucial to achieving audience adoption.
 
 * Puppet module documentation tutorial
 * High level documentation sanity check and advice
+
 
 ## Test design review
 Designing good unit tests can be hard and mocking out the right things to ensure
@@ -38,6 +40,7 @@ valid tests can be even harder.
 * Advice on writing effective mocks or stubs
 * Help determine testable requirements
 
+
 ## Technical review
 Would a second pair of eyes on your code help? Do you need a sanity check on
 some possibly questionable design decisions you'll be making?
@@ -46,23 +49,25 @@ some possibly questionable design decisions you'll be making?
 * Limited availability code review
 * Bolt task/plan workshop and advice
 
+
 ## Designing for usability
 It's easy to forget that people using our products aren't always experts in the
 same things that we are. When building graphical or web applications it's hard
 sometimes to predict the limitations that users might have.
 
-* Webinar on user centric design
+* UX advice on [#office-hours](https://puppetcommunity.slack.com/app_redirect?channel=office-hours)
 * Quick UX sanity checks
 * Advice on running lightweight user studies
+
 
 ## Internationalization
 Internationalization is one of those things that often gets postponed or ignored
 because it's seen as being hard or tedious. We can help get you set up and it
 just might be easier than you think!
 
-* Webinar on internationalizing a Puppet module or software project
+* Internationalization advice in [#office-hours](https://puppetcommunity.slack.com/app_redirect?channel=office-hours)
 * Translation resources
-* Sanity check of internationalization resources 
+* Sanity check of internationalization resources
 
 If there's something that would really help move your project along, feel free
-to ask community@puppet.com or in Slack and we'll see if we can accomodate.
+to ask community@puppet.com or in Slack and we'll see if we can accommodate.

@@ -51,7 +51,7 @@ If you need Git or GitHub help, you might start with these guides:
 # Collaboration Resources Provided
 We would like to help ensure your success. We'll be working with you to help keep your
 projects on track. We'll provide resources to help you define your project scope and
-set roadmap goals, then check in with you roughly weekly to see how you're doing. 
+set roadmap goals, then check in with you roughly weekly to see how you're doing.
 (Office Hours are scheduled for each Wednesday, but we can interact outside that time
 as well.) In addition, during the project month we'll provide several resources and
 services that you might not otherwise have access to.
@@ -59,14 +59,14 @@ services that you might not otherwise have access to.
 The [full Office Hour schedule](https://puppet.com/community/office-hours) is always
 available, but during this month, we'll also provide extra resources in the form of
 webinars or downloaded materials. If warranted, we may also provide short one-on-one chats
-or video consulations. The Puppet community team will coordinate with each of you to
+or video consultations. The Puppet community team will coordinate with each of you to
 ensure that you receive all the help you need.
 
 See [the resources list](../../blob/master/RESOURCES.md) to see examples of what we could offer.
 
 
 # Project Ideas
-If you need a little inspiration to come up with a project idea, we've put together a 
+If you need a little inspiration to come up with a project idea, we've put together a
 [list of some suggestions](../../blob/master/PROJECTS.md). Feel free to use what you'd like from here,
 no credit is needed.
 
