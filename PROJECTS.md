@@ -13,7 +13,7 @@ to see if you can join forces with someone already working on it.
   with an authentication token, etc. What kind of exciting things could you think of?
     * Suggested functions:
         * Retrieve secrets from [AWS secret manager](https://docs.aws.amazon.com/secretsmanager/latest/userguide/manage_retrieve-secret.html)
-        * Generic *output of a `curl` command`* function
+        * Generic *output of a `curl` command* function
     * Resources:
         * Follow an example project at [puppet-vault-demo](https://github.com/puppetlabs/puppet-vault-demo)
         * [Read a talk](https://twitter.com/binford2k/status/1092806318501576706) describing the appropriate use cases
