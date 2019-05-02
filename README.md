@@ -8,6 +8,8 @@ We're hoping that not only do you get a supported chance to play with some of ou
 new technology, but you can build it into something that contributes to the larger
 DevOps community.
 
+### [Click here to sign up!](http://pup.pt/cspm-signup)
+
 ***We'll kick things off May first*** with a month-long collaborative hackathon and
 make our first releases the week of Contributor Summit. If you're attending then
 you'll even have the opportunity to take the stage for a few minutes to talk about
