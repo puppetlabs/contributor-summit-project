@@ -36,6 +36,13 @@ to see if you can join forces with someone already working on it.
     * Resources:
         * See the [developer docs](https://puppet.com/docs/puppet/6.0/create_types_and_providers_resource_api.html)
         * Chat in the [#puppet-dev](http://puppetcommunity.slack.com/app_redirect?channel=puppet-dev) Slack channel
+        
+* With the most recent release of [Resource API Transports](https://github.com/puppetlabs/puppet-specifications/blob/master/language/resource-api/README.md#transport) you can leverage the same code with Bolt and Puppet to integrate APIs and devices that can't (or shouldn't) run an agent into your configuration management. Do you have one of those systems or APIs that always get in your way because they don't integrate into Puppet and Bolt? Get it fixed!
+    * Resources:
+        * See the [specs](https://github.com/puppetlabs/puppet-specifications/blob/master/language/resource-api/README.md#transport)
+        * Simple [example module](https://github.com/da-ar/hue_rsapi/pull/2) <!-- needs to be updated to the full module once this PR lands -->
+        * Complex [example module](https://github.com/puppetlabs/puppetlabs-panos)
+        * Chat in the [#puppet-dev](http://puppetcommunity.slack.com/app_redirect?channel=puppet-dev) Slack channel
 
 * Puppet Server now comes with a new [CA command line tool and gem](https://puppet.com/docs/puppetserver/6.0/release_notes.html).
   It's far more reliable and is fully API driven, which leads to all kinds of neat
