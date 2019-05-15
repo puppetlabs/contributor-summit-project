@@ -36,7 +36,12 @@ to see if you can join forces with someone already working on it.
     * Resources:
         * See the [developer docs](https://puppet.com/docs/puppet/6.0/create_types_and_providers_resource_api.html)
         * Chat in the [#puppet-dev](http://puppetcommunity.slack.com/app_redirect?channel=puppet-dev) Slack channel
-        
+
+* Fully automating the lifecycle of your Puppet module - it's the stuff dreams are made of. Ok, maybe that's only true for some of us! But if that sounds exciting to you, the [Forge now has API endpoints](https://twitter.com/puppetize/status/1125439958595059713) for complete module management. What does that mean? You can now publish, delete, or deprecate any of your modules directly through the Forge API. Wouldn't it be fun to add that support to the [forge-ruby](https://github.com/puppetlabs/forge-ruby) gem too?
+    * Resources:
+        * Read the [announcement post](https://puppet.com/blog)
+        * Chat with the Forge developers in the [#puppet-dev](http://puppetcommunity.slack.com/app_redirect?channel=puppet-dev) Slack channel
+
 * With the most recent release of [Resource API Transports](https://github.com/puppetlabs/puppet-specifications/blob/master/language/resource-api/README.md#transport) you can leverage the same code with Bolt and Puppet to integrate APIs and devices that can't (or shouldn't) run an agent into your configuration management. Do you have one of those systems or APIs that always get in your way because they don't integrate into Puppet and Bolt? Get it fixed!
     * Resources:
         * See the [specs](https://github.com/puppetlabs/puppet-specifications/blob/master/language/resource-api/README.md#transport)
